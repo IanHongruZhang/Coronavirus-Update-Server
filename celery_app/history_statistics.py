@@ -27,7 +27,7 @@ logger = get_task_logger('celery_app')
 
 wks_name_old = "Old_version"
 wks_name_latest = 'Latest_data'
-wks_name_history = "oversea_history_test"
+wks_name_history = "oversea_history"
 spreadsheet_key = '1kNgqN0an1xePNfqkXD8bMQDiBWtanAOfiDSNUn22Ln8'
 
 def create_cre():
