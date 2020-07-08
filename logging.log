@@ -92,3 +92,7 @@ every hour task start!
 2020-07-08 19-00-12-every hour task finished!
 every hour task start!
 2020-07-08 19-30-22-every hour task finished!
+every hour task start!
+{'code': 503, 'message': 'The service is currently unavailable.', 'status': 'UNAVAILABLE'}
+failed to import new version of table
+2020-07-08 20-00-18-every hour task finished!
