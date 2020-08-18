@@ -64,3 +64,7 @@ every hour task start!
 2020-08-18 12-30-12-every hour task finished!
 every hour task start!
 2020-08-18 13-00-12-every hour task finished!
+every hour task start!
+{'code': 400, 'message': 'Invalid requests[0].addSheet: A sheet with the name "Latest_data" already exists. Please enter another name.', 'status': 'INVALID_ARGUMENT'}
+failed to import new version of table
+2020-08-18 13-30-15-every hour task finished!
