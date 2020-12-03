@@ -72,3 +72,7 @@ failed to import new version of table
 2020-12-03 14-00-09-every hour task finished!
 every hour task start!
 2020-12-03 14-30-14-every hour task finished!
+every hour task start!
+{'code': 409, 'message': 'The operation was aborted.', 'status': 'ABORTED'}
+failed to import new version of table
+2020-12-03 15-00-08-every hour task finished!
