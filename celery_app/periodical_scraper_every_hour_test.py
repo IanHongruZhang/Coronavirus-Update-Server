@@ -8,7 +8,6 @@ import logging
 import datetime
 import pandas as pd
 from bs4 import BeautifulSoup
-from celery_app import app
 from fake_useragent import UserAgent
 import json
 import gspread
@@ -18,8 +17,6 @@ from oauth2client.service_account import ServiceAccountCredentials
 from celery.utils.log import get_task_logger
 from datetime import timezone
 from datetime import timedelta
-
-logger = get_task_logger('celery_app')
 
 ua = UserAgent()
 fake_header = {
@@ -84,14 +81,12 @@ def export_to_gs_every_hour(tf_f):
 		logger.error(e)
 		logger.error("failed to import new version of table")
 
-	# 第五步：留存最新版本记�?.xlsx)
+	# 第五步：留存最新版本记录(.xlsx)
 	nowTime = generate_time()
 	filename_new = str(nowTime) + "_new_version.xlsx"
 	tf_f.to_excel(filename_new)
 
-@app.task
 def execute():
-	logger.info("every hour task start!")
 	response = scrape(params)
 	tf_f = parse(response)
 	export_to_gs_every_hour(tf_f)
@@ -99,3 +94,5 @@ def execute():
 	logging_time = generate_time()
 	logging_records = str(logging_time) + "-every hour task finished!"
 	logger.info(logging_records)
+
+execute()
