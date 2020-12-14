@@ -87,3 +87,7 @@ every hour task start!
 2020-12-14 19-00-23-every hour task finished!
 every hour task start!
 2020-12-14 19-30-21-every hour task finished!
+every hour task start!
+<HttpError 500 when requesting https://www.googleapis.com/drive/v3/files/root?fields=id&alt=json returned "">
+failed to import new version of table
+2020-12-14 20-00-03-every hour task finished!
