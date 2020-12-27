@@ -59,3 +59,10 @@ HTTPSConnectionPool(host='sheets.googleapis.com', port=443): Read timed out. (re
 failed to import new version of table
 2020-12-27 11-32-23-every hour task finished!
 history_data_start_to_update!
+history_data_update_completed!
+every hour task start!
+2020-12-27 12-06-42-every hour task finished!
+every hour task start!
+HTTPSConnectionPool(host='sheets.googleapis.com', port=443): Read timed out. (read timeout=120)
+failed to import new version of table
+2020-12-27 12-32-09-every hour task finished!
