@@ -58,3 +58,4 @@ every hour task start!
 HTTPSConnectionPool(host='sheets.googleapis.com', port=443): Read timed out. (read timeout=120)
 failed to import new version of table
 2020-12-27 11-32-23-every hour task finished!
+history_data_start_to_update!
