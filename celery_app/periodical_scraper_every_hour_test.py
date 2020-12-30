@@ -34,6 +34,7 @@ params = (
     ('cacheHint', 'true'),
     ('quantizationParameters', '{"mode":"edit"}'),
 )
+# 爬虫处理，使用post给予既定参数请求就可以，由于是API，没有设置反爬的步骤。
 
 def scrape(params):
 	try:
@@ -42,6 +43,10 @@ def scrape(params):
 		return response
 	except Exception as e:
 		logger.error("failed to download!")
+
+# 解析处理，将爬来的数据，根据我们统计国家的排序进行清洗变换
+# 顺序来源于country_sequence，由于jhu有可能变换其顺序或者删掉国家，因此
+# 这部分country_sequence的次序有可能发生改变，需要ftp下载后手动调整。
 
 def parse(response):
 	json_files = json.loads(response.text)
@@ -55,15 +60,22 @@ def parse(response):
 	tf_f["Automatic_Update_Time"] = generate_time()
 	return tf_f
 
+# 生成时间，东八区按照指定时间格式生成
+
 def generate_time():
 	nowTime = datetime.datetime.now(tz=timezone(timedelta(hours=8))).strftime('%Y-%m-%d %H-%M-%S')
 	return str(nowTime)
+
+# 将得到的时间进行时间戳转换
 
 def timestamp_transfer(table):
     time_stamp = int(table["Last_Update"]/1000)
     time_local = time.localtime(time_stamp)
     dt = time.strftime("%Y-%m-%d %H:%M:%S",time_local)
     return dt
+
+# 上传到google_sheet，注意上传api的私钥是jsonfilefromgoogle.json，
+# 此处已经变成了一个绝对路径，在该文件夹下。
 
 def export_to_gs_every_hour(tf_f):
 	wks_name_old = "Old_version"
