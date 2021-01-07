@@ -1,0 +1,56 @@
+01/07/21 10:41:34:880 | [INFO] |  |  |  | AdobeGCInvokerUtilityHelper |  |  | 4019 | AdobeGCInvokerUtility : inside getLatestGCApplication
+01/07/21 10:41:36:359 | [INFO] |  |  |  | AdobeGCUpdater |  |  | 4019 | ***********AdobeGC Updater library invoked = 7.1.0.111 ************
+01/07/21 10:41:36:359 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 4019 | Perform WF started
+01/07/21 10:41:36:359 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 4019 | Perform WF completed
+01/07/21 10:41:36:359 | [ERROR] |  |  |  | AdobeGCInvokerUtilityHelper |  |  | 4019 | AdobeGCInvokerUtility :inside waitForCFUCallBack.
+01/07/21 10:41:36:360 | [DEBUG] |  |  |  | AdobeGCUpdaterCFU |  |  | 4663 | Trying to acquire the semaphore
+01/07/21 10:41:36:360 | [DEBUG] |  |  |  | AdobeGCUpdaterCFU |  |  | 4663 | Semaphore acquired
+01/07/21 10:41:36:360 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 4663 | Threaded CFU Started
+01/07/21 10:41:36:360 | [INFO] |  |  |  | AdobeGCUpdater |  |  | 4663 | Get client install path Started
+01/07/21 10:41:36:360 | [INFO] |  |  |  | AdobeGCUpdater |  |  | 4663 | Get client install path Ended
+01/07/21 10:41:36:360 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 4663 | Client sanitization started
+01/07/21 10:41:36:360 | [DEBUG] |  |  |  | AdobeGCCodeSignWrapper |  |  | 4663 | Invoked VerifyCodeSign for app: /Library/Application Support/Adobe/AdobeGCClient/AdobeGCClient.app
+01/07/21 10:41:38:541 | [DEBUG] |  |  |  | AdobeGCCodeSignWrapper |  |  | 4663 | Status returned is 0 
+01/07/21 10:41:38:541 | [DEBUG] |  |  |  | AdobeGCCodeSignWrapper |  |  | 4663 | Code signature is OK. 
+01/07/21 10:41:38:541 | [DEBUG] |  |  |  | AdobeGCCodeSignWrapper |  |  | 4663 | Completed VerifyCodeSign. 
+01/07/21 10:41:38:543 | [INFO] |  |  |  | AdobeGCVersionWrapper |  |  | 4663 | Getting version of package at /Library/Application Support/Adobe/AdobeGCClient/AdobeGCClient.app
+01/07/21 10:41:38:543 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 4663 | Client sanitization ended
+01/07/21 10:41:38:543 | [INFO] |  |  |  | AdobeGCClientHealthUtil |  |  | 4663 | Checking CEF dependencies
+01/07/21 10:41:38:544 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 4663 | Threaded CFU Ended
+01/07/21 10:41:38:544 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 4663 | Semaphore signalled
+01/07/21 10:41:39:422 | [ERROR] |  |  |  | AdobeGCInvokerUtilityHelper |  |  | 4019 | AdobeGCInvokerUtility :  AdobeGC_CFUCallbackFn is invoked
+01/07/21 10:41:39:422 | [ERROR] |  |  |  | AdobeGCInvokerUtilityHelper |  |  | 4019 | AdobeGCInvokerUtility : inside invokeGCApplication.
+01/07/21 10:41:39:440 | [INFO] |  |  |  | AdobeGCUpdater |  |  | 4019 | ***********AdobeGC Updater library invoked = 7.1.0.111 ************
+01/07/21 10:41:39:440 | [DEBUG] |  |  |  | AdobeGCUpdaterIC |  |  | 4019 | Trying to acquire the semaphore
+01/07/21 10:41:39:440 | [DEBUG] |  |  |  | AdobeGCUpdaterIC |  |  | 4019 | Semaphore acquired
+01/07/21 10:41:39:440 | [INFO] |  |  |  | AdobeGCUpdaterIC |  |  | 4019 | Perform WF started
+01/07/21 10:41:39:444 | [ERROR] |  |  |  | AdobeGCUpdaterIC |  |  | 4019 | isOOCTargeted flag read
+01/07/21 10:41:39:444 | [ERROR] |  |  |  | AdobeGCUpdaterIC |  |  | 4019 | Time flag read
+01/07/21 10:41:39:444 | [INFO] |  |  |  | AdobeGCUpdaterIC |  |  | 4019 | GCInvokerNextClientLaunchTimestamp from cache 1609988943
+01/07/21 10:41:39:444 | [INFO] |  |  |  | AdobeGCUpdaterIC |  |  | 4019 | GCInvokerNextClientLaunchTimestamp cached 1609988943 , curr 1609987299 res = 0
+01/07/21 10:41:39:444 | [INFO] |  |  |  | AdobeGCUpdaterIC |  |  | 4019 | Invocation agent is GC Invoker Utility at logon and time is not elapsed 
+01/07/21 10:41:39:444 | [INFO] |  |  |  | AdobeGCUpdaterIC |  |  | 4019 | Not invoking client
+01/07/21 10:41:39:444 | [INFO] |  |  |  | AdobeGCUpdaterIC |  |  | 4019 | Perform WF completed
+01/07/21 10:41:39:444 | [INFO] |  |  |  | AdobeGCUpdaterIC |  |  | 4019 | Semaphore signalled
+01/07/21 10:41:39:444 | [INFO] |  |  |  | AdobeGCUpdater |  |  | 4019 | ***********AdobeGC Updater library End*******************
+01/07/21 10:41:39:444 | [ERROR] |  |  |  | AdobeGCInvokerUtilityHelper |  |  | 4019 | AdobeGCInvokerUtility : AdobeGC_ReleaseRef called.
+01/07/21 10:41:41:560 | [INFO] |  |  |  | AGMService |  |  | 4007 | Initializing Directory Watcher.
+01/07/21 10:41:41:561 | [INFO] |  |  |  | AGMService |  |  | 4007 | Stream created for path /Library/Application Support/Adobe
+01/07/21 10:41:41:565 | [INFO] |  |  |  | AGMService |  |  | 5381 | Process Creation Monitoring enabled...
+01/07/21 10:41:54:326 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 10:44:34:872 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 11:09:29:800 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 11:10:57:506 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 11:44:08:468 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 11:44:31:071 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 11:44:39:096 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 11:52:53:312 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 13:04:50:188 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 13:09:28:319 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 13:17:02:606 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 13:25:04:258 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 13:42:58:751 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 13:43:15:372 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 14:11:37:300 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 14:30:26:476 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
+01/07/21 14:30:33:388 | [INFO] |  |  |  | AGMService |  |  | 4007 | Launch Callback received
