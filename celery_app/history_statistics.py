@@ -65,7 +65,7 @@ def execute():
 	history_data_final = data_transfer(history_data)
 
 	# 得到今天的时间
-	day = '{dt.month}月{dt.day}日'.format(dt = datetime.datetime.now())
+	day = '{dt.year}年{dt.month}月{dt.day}日'.format(dt = datetime.datetime.now())
 	table_data_3 = table_data_2.drop(["id"],axis = 1)
 
 	table_casetotal = table_transfer(table_data_3,"casetotal",day)
