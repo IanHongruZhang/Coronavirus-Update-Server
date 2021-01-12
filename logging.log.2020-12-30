@@ -30,3 +30,5 @@ everyday 12:00pm task - start!
 everyday 12:00pm task - start!
 history_data_start_to_update!
 history_data_update_completed!
+every hour task start!
+2021-01-12 22-30-31-every hour task finished!
