@@ -45,3 +45,7 @@ everyday 12:00pm task - start!
 every hour task start!
 2021-01-20 16-30-17-every hour task finished!
 history_data_start_to_update!
+every hour task start!
+{'code': 400, 'message': 'Invalid requests[0].addSheet: A sheet with the name "Latest_data" already exists. Please enter another name.', 'status': 'INVALID_ARGUMENT'}
+failed to import new version of table
+2021-01-20 17-30-16-every hour task finished!
