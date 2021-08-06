@@ -1,0 +1,872 @@
+quit
+id
+passwd
+rm /etc/ssh/ssh_host_*
+y
+sudo dpkg-reconfigure openssh-server
+systemctl restart sshd
+vi /etc/ssh/sshd_config
+service sshd restart
+logout
+wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+ls
+bash Anaconda3-2020.02-Linux-x86_64.sh
+pip install celery
+conda install
+anaconda
+jupyter notebook
+conda
+bash Anaconda3-2020.02-Linux-x86_64.sh
+-u
+anaconda
+vim ~/.bashrc
+source ~/.bashrc
+pip
+conda
+pip install celery
+pip install gspread
+pip install df2gspread
+ls
+rm Anaconda3-2020.02-Linux-x86_64.sh
+ls
+cd celery_coronavirus
+cd --
+wget http://download.redis.io/releases/redis-5.0.8.tar.gz
+tar xzf redis-5.0.8.tar.gz
+cd redis-5.0.8
+make
+yum -y install gcc automake autoconf libtool make
+make
+ls
+vi redis.conf
+screen -S redis
+yum install screen
+screen
+yum install screen
+yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+yum install screen
+screen -S redis
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+exit
+screen -l
+screen -ls
+screen -r id
+screen -r 9790
+screen -ls
+screen -r 5180
+screen -ls
+clean
+clear
+ls
+screen -ls
+cd celery_coronavirus
+ls
+celery -A celery_app worker --loglevel=info --beat
+celery -A worker celery_app --loglevel=info --beat
+celery
+clear
+celery -A celery_app worker --loglevel=info --beat
+pip install fake_useragent
+celery -A celery_app worker --loglevel=info --beat
+pip install redis
+celery -A celery_app worker --loglevel=info --beat
+screen -ls
+screen -S celery
+export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+screen -ls
+screen id 23292
+cd celery_coronavirus
+celery -A celery_app worker --loglevel=info --beat
+cd --
+cd celery_coronavirus
+celery -A celery_app worker --loglevel=info --beat
+cd --
+cd celery_coronavirus
+celery -A celery_app worker --loglevel=info --beat
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+screen - ls
+exit
+screen -ls
+cd celery_coronavirus
+celery -A celery_task beat
+celery -A celery_app beat
+clear
+celery -A celery_app beat
+clear
+celery -A celery_app beat
+date
+cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+hwclock
+date
+celery -A celery_app beat
+cd--
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+screen -ls
+screen id 23292
+cd celery_coronaivurs
+cd celery_coronavirus
+celery -A celery_app worker --loglevel=info --beat
+cd --
+cd celery_coronavirus
+celery -A celery_app worker --loglevel=info --beat
+celery -A celery_app worker --loglevel=info
+cd --
+cd celery_coronavirus
+screen -ls
+screen id 23292
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+-ls
+screen -ls
+ls
+screen id 23292
+cd celery_coronavirus
+celery -A celery_app beat
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+cd celery_coronavirus
+screen -r
+screen -r 23292
+cd celery_coronavirus
+celery -A celery_app worker --loglevel=info
+screen id 23292
+screen -r 
+screen -r 23292
+screen -r 
+screen -r 5180
+screen -S celery_beat
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+screen -r
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+screen -r 
+screen -r 23626
+screen -r 
+screen -r 23292
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+screen -r
+screen -r
+screen -r 23292
+celery -A celery_app worker --loglevel=info
+cd celery_coronavirus
+celery -A celery_app worker --loglevel=info
+screen -r
+celery -A celery_app beat
+cd --
+cd celery_coronavirus
+celery -A celery_app beat
+vi /root/celery_coronavirus/celery_app/celery_config.py
+celery -A celery_app beat
+vi /root/celery_coronavirus/celery_app/celery_config.py
+celery -A celery_app beat
+vi /root/celery_coronavirus/celery_app/celery_config.py
+celery -A celery_app beat
+screem -r
+screen -r
+cd celery_coronavirus
+celery -A celery_app worker --loglevel=info --beat
+cd --
+
+celery -A celery_app worker --loglevel=info
+cd celery_coronavirus
+celery -A celery_app worker --loglevel=info
+cd --
+cd celery_coronavirus
+celery -A celery_app worker --loglevel=info
+redis-cli -h 127.0.0.1 -p 6379
+screen -r
+screen -r 5180
+screen -r
+screen -r 23626
+celery -A celery_app beat
+screen -d 23626
+screen -r
+redis-server redis.conf
+./redis-server redis.conf
+redis-server redis.conf
+make install
+redis-server redis.conf
+vi redis.conf
+
+redis-server redis.conf
+screen -r 
+screen -r
+screen -ls
+screen -d 5180
+screen -ls
+screen -r 23626
+screen -d 23626
+screen -r 23626
+screen -ls
+kill 23626
+kill 23292
+jukk 5179
+jukk 5180
+kill 5180
+screen - ls
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+screen -r
+screen -r 23626
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+screen -ls
+screen -S redis
+screen -r redis
+redis-cli
+screen -S celery_beat
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+python
+screen -ls
+screen -d 22833
+screen -r 22833
+screen -ls
+screen -r 22833
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+srenls
+screen -ls
+screen -r 22833
+screen -ls
+screen -r 22833
+screen -ls
+screen -r 22833
+screen -ls
+redis-cli
+screen -r 22833
+screen -S celery
+screen - ls
+screen -ls
+screen -r 22833
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+screen -ls
+screen -r 22033
+screen -d 22033
+screen -r 22033
+screen -r 22833
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+ls
+exit
+celery -A celery_app worker --loglevel=info
+cd celery_coronavirus
+celery -A celery_app worker --loglevel=info
+celery -A celery_app worker --loglevel=info --concurrency = 10
+celery -A celery_app worker --loglevel=info --concurrency=10
+screen -ls
+kill 18658
+screen -r 22833
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+git
+sudo dnf install git-all
+git
+git https://github.com/IanHongruZhang/Coronavirus-Automatic-Map
+git clone https://github.com/IanHongruZhang/Coronavirus-Automatic-Map/tree/master/celery_coronavirus
+git clone https://github.com/IanHongruZhang/Coronavirus-Automatic-Map
+vi /root/Coronavirus-Automatic-Map/celery_coronavirus/celery_app/celery_config.py
+cd /root/Coronavirus-Automatic-Map/celery_coronavirus
+celery -A celery_app worker --loglevel=info --beat
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+vi /root/celery_coronavirus/celery_app/celery_config.py
+screen -ls
+redis cli
+redis-cil
+rediscil
+redis cil
+redis cli
+redis-cli
+screen -ls
+screen -r 22933
+screen -r 22333
+screen -r 22833
+screen -r
+screen -r 22833
+screen -ls
+screen -r 22833
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+screen -ls
+screen -r 22833
+screen -S celery
+vi /root/celery_coronavirus/celery_config.py
+screen -r
+screen -r 25526
+vi /root/celery_coronavirus/celery_config.py
+vi /root/celery_coronavirus/celery_app/celery_config.py
+screen -r 25526
+screen -r
+screen -r celery_beat
+screen -d celery_beat
+screen -r celery_beat
+screen -r celery
+screen -r
+screen -r 22833
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+set +o history–;export LANG="en_US.UTF-8";export LANGUAGE="en_US.UTF-8";top
+screen -ls
+screen -r 25526
+screen -ls
+screen -r 25526
+screen -ls
+screen -r 25526
+screee -r
+screen -r
+screen -r celery
+screen -r
+screen -r 22833
+screen -r
+screen -r 25526
+vi /root/celery_coronavirus/celery_app/celery_config.py
+screen -r
+screen -r 22833
+screen -r
+screen -r 25526
+screen -d 25526
+screen -r 25526
+screen -r 
+screen -r 25526
+screen -r 
+screen -r 25526
+vi /root/celery_coronavirus/celery_app/celery_config.py
+screen -r
+screen -r 22833
+screen -r 25526
+vi /etc/yum.repos.d/mongodb-org-4.2.repo
+sudo yum install -y mongodb-org
+screen -ls
+screen -S mongodb
+screen -r mongodb
+screen -r celery
+vi /root/celery_coronavirus/celery_app/celery_config.py
+screen -r
+screen -r 22833
+cd /root/celery_coronavirus
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git config --global user.email "hongruzyj@gmail.com"
+git config --global user.name "Your Name"
+git config --global user.name "hongruzyj"
+git commit -m "first commit"
+ssh-keygen -t rsa -C "hongruzyj@gmail.com"
+vi /root/.ssh/id_rsa
+vi /root/.ssh/id_rsa.pub
+git remote add origin https://github.com/IanHongruZhang/Coronavirus-Update-Server.git
+git push -u origin master
+vi auto_upload.sh
+chmod 777 auto_upload.sh
+vi auto_upload.sh
+git push -u origin master
+git remote set-url origin git@github.com:IanHongruZhang/Coronavirus-Update-Server.git
+git push -u origin master
+git commit
+git commit -m "second commit"
+git push -u origin master
+vi auto_upload.sh
+*/60 * * * * /root/celery_coronavirus/auto_upload.sh ~/git_logging.txt 2>&1 &
+*/60 * * * * /root/celery_coronavirus/auto_upload.sh
+crontab -l
+*/60 * * * * /root/celery_coronavirus/auto_upload.sh
+/root/celery_coronavirus/auto_upload.sh
+*/59 * * * * /root/celery_coronavirus/auto_upload.sh
+*/59 * * * * /root/celery_coronavirus/auto_upload.sh ~/git_logging.txt 2>&1 &
+0 */1 * * * /root/celery_coronavirus/auto_upload.sh ~/git_logging.txt 2>&1 &
+*/59 * * * * /root/celery_coronavirus/auto_upload.sh ~/git_logging.txt 2>&1 &
+crontab -l
+sudo vi /etc/crontab
+crontab -e
+crontab -l
+crontab -e
+crontab -l
+crontab -ls
+crontab -l
+crontab -e
+crontab -l
+crontab -e
+crontab -l
+cd --
+
+python test.py
+crontab -e
+crontab -l
+p
+crontab -e
+/usr/local/bin/python
+chmod +x /root/test.py
+crontab -e
+python /root/test.py
+/root/anaconda3/bin/python test.py
+crontab -e
+chkconfig --list | grep cron
+vi test.py
+crontab -e
+tail -f /var/log/cron
+crontab -e
+tail -f /var/log/cron
+vi /root/celery_coronavirus/celery_app/celery_config.py
+vi /root/test.py
+tail /var/log/cron
+vi /var/log/cron
+screen -r celery
+ls
+cd celery_coronavirus
+ls
+screen -ls
+screen celery_beat
+screen -r celery_beat
+screen -ls
+screen -r celery
+sclear
+clean
+clear
+vi "/root/celery_coronavirus/celery_app/history_statistics.py"
+screen -r celery
+s
+vi "/root/celery_coronavirus/celery_app/history_statistics.py"
+vi "/root/celery_coronavirus/celery_app/celery_config.py"
+screen -r celery
+screen -r 
+screen -r celery_beat
+clear
+screen -r celery_beat
+sudo vim /etc/ssh/sshd_config
+service sshd restart
+clear
+screen -r celery
+vi "/root/celery_coronavirus/celery_app/celery_config.py"
+find "/root/celery_coronavirus/" -name "*.xlsx"
+find -ctime n
+find -ctime 1
+find "/root/celery_coronavirus/" -name "2020-04-17*.xlsx"
+find "/root/celery_coronavirus/" -name "2020-04-17*" -a -name "_new_version"
+find "/root/celery_coronavirus/" -name "2020-04-17*" -a -name "*_new_version"
+find "/root/celery_coronavirus/" -name "2020-04-17*" -a -name "*_new_version.xlsx"
+clear
+crontab -l
+vi auto_delete.sh
+auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+find "/root/celery_coronavirus/" -name find "*" -a -name "*_new_version.xlsx"
+find "/root/celery_coronavirus/" -name find "*2" -a -name "*_new_version.xlsx"
+find "/root/celery_coronavirus/" -name find "2" -a -name "*_new_version.xlsx"
+find "/root/celery_coronavirus/" -name "2020-04-17*" -a -name "*_new_version.xlsx"
+vi auto_delete.sh
+"
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+find "/root/celery_coronavirus/" -name "2020-04-17 07-00-11" -a -name "*_new_version.xlsx" | xargs rm
+find "/root/celery_coronavirus/" -name "2020-04-17 07-00-11*" | xargs rm
+find "/root/celery_coronavirus/" -name "2020-04-17 07-00-11*"
+find "/root/celery_coronavirus/" -name "2020-04-17 07-00-11*" | xargs rm
+find "/root/celery_coronavirus/" -name "2020-04-17 07-00-11*"
+find "/root/celery_coronavirus/" -name "2020-04-17 07-00-11*" | xargs rm
+find "/root/celery_coronavirus/" -name "/root/celery_coronavirus/2020-04-17 07-00-11_new_version.xlsx" | xargs rm
+find "/root/celery_coronavirus/" -name "/root/celery_coronavirus/2020-04-17 07-00-11_new_version.xlsx" | xargs rm -rf
+rm -rf "/root/celery_coronavirus/2020-04-17 07-00-11_new_version.xlsx"
+find "/root/celery_coronavirus/" -name "2020-04-17 07-00-11_new_version.xlsx" | xargs rm -rf
+find "/root/celery_coronavirus/" -name "2020-04-17*" -a -name "*_new_version.xlsx"
+find "/root/celery_coronavirus/" -name "2020-04-17*" -a -name "*_new_version.xlsx" | rm -rf
+find "/root/celery_coronavirus/" -name "2020-04-17*" -a -name "*_new_version.xlsx" | xargs rm -rf
+find "/root/celery_coronavirus/" -name "2020-04-17*" -a -name "*_new_version.xlsx" |xargs rm -rf
+find "/root/celery_coronavirus/" -name "2020-04-17*" -a -name "*_new_version.xlsx"|xargs rm -rf
+find "/root/celery_coronavirus/" -name "2020-04-17*" -a -name "*_new_version.xlsx"
+find "/root/celery_coronavirus/" -name "2020-04-17*" -a -name "*_new_version.xlsx" -exec rm -rf {} \;
+find "/root/celery_coronavirus/" -name "2020-04-17*" -a -name "*_new_version.xlsx"
+
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+vi auto_delete.sh
+sh auto_delete.sh
+crobtab -e
+crontab -l
+crontab -e
+crontab -l
+crontab -e
+crontab -l
+tail -f /var/log/cron
+sh "/root/celery_coronavirus/auto_upload.sh"
+git pull
+git pull -rebase
+cd celery_coronavirus
+git pull -rebase
+git pull
+sh "/root/celery_coronavirus/auto_upload.sh"
+vi "/root/celery_coronavirus/auto_upload.sh"
+sh "/root/celery_coronavirus/auto_upload.sh"
+crontab -l
+screen -ls
+screen -r 25526
+screen -r celery
+vi "/root/celery_coronavirus/celery_app/celery_config.py"
+screen -r celery
+screen -r 
+screen -r celery
+clear
+screen -r celery
+ls
+cd celery_coronavirus
+ls
+crontab -e
+tail -f /var/log/cron
+vi /var/log/cron
+crontab -l
+crontab -e
+crontab -l
+sh /root/auto_delete.sh
+vi /var/log/cron
+chomd 777 /root/auto_delete.sh
+chmod -r /root/auto_delete.sh
+sh /root/auto_delete.sh
+cd root
+https://github.com/839Studio/Novel-Coronavirus-Updates
+git clone https://github.com/839Studio/Novel-Coronavirus-Updates
+python /root/transfer_main.py
+cd /root/Novel-Coronavirus-Updates
+git push -u -origin master
+git push -u origin master
+git commit .
+git push -u origin master
+git config --global credential.helper store
+git push -u origin master
+cd --
+vi /root/celery_coronavirus/auto_upload.sh
+vi #!/bin/bash
+vi upload_main.sh
+crontab -l
+crontab -e
+chmod 777 /root/transfer_main.py
+vi /root/transfer_main.py
+
+crontab -l
+/root/anaconda3/bin/python3 /root/transfer_main.py
+vi auto_upload_main.sh
+vi upload_main.sh
+crontab -e
+sh /root/upload_main.sh
+crontab -e
+sh /root/auto_delete.sh
+sh /root/celery_coronavirus/auto_upload.sh
+vi /var/log/cron
+tail /var/log/cron
+tail /var/log/cron 100
+/root/anaconda3/bin/python3 /root/transfer_main.py
+sh /root/celery_coronavirus/auto_upload.sh
+sh /root/upload_main.sh
+sh auto_delete.sh
+/root/anaconda3/bin/python3 /root/transfer_main.py
+sh /root/upload_main.sh
+sh auto_delete.sh
+/root/anaconda3/bin/python3 /root/transfer_main.py
+sh /root/upload_main.sh
+/root/anaconda3/bin/python3 /root/transfer_main.py
+sh auto_delete.sh
+sh /root/upload_main.sh
+sh auto_delete.sh
+crontab -l
+tail -f /var/log/cron
+tail -f /var/log/cron -100
+tail -100 -f /var/log/cron 
+tail 100 -f /var/log/cron 
+tail -100 -f /var/log/cron 
+tail -n -f /var/log/cron 
+tail -f /var/log/cron 
+tail -f -n 100 /var/log/cron 
+crontab -l
+chmod 755 /root/auto_delete.sh
+chmod 777 /root/auto_delete.sh
+vi /root/auto_delete.sh
+crontab -l
+/root/auto_delete.sh
+crontab -l
+crontab -e
+crontab -l
+ls
+945180zyj
+vim /home/user/.jupyter/jupyter_notebook_config.py
+jupyter notebook --generate-config
+python
+vim /home/user/.jupyter/jupyter_notebook_config.py
+jupyter notebook --generate-config
+vim /root/.jupyter/jupyter_notebook_config.py
+screen -ls
+screen
+jupyter notebook
+s
+quit() exit
+exit() exit()
+exit
+jupyter notebook
+jupyter notebook --allow-root
+screen -ls
+screen -S 31180.pts-1.CoronavirusUpdate kill
+screen -ls
+screen -S 31180.pts-1.CoronavirusUpdate kill
+screen -r 31180
+screen -ls
+screen -r 30729
+screen -r 30728
+vim ~/.jupyter/jupyter_notebook_config.py
+screen -r 30728
+
+screen -ls
+screen -r 30728
+screen -X -S 30728 quit
+screen -ls
+screen
+exit
+ls
+screen - ls
+screen
+python
+python "/root/celery_coronavirus/celery_app/periodical_scraper_every_hour_test.py"
+ps -aux | grep cron  
+celery
+screen -ls
+screen -r 25526
+screen 0-ls
+screen -ls
+screen -r 22833
+ls
+date +%Y/%m/%d
+df
+pwd
+ls
+mkdir backup
+cp upload_main.sh backup
+ls
+cd backup
+ls
+-
+cd -
+ks
+l
+ls
+ll /etc/cron.d
+ls -ld /var/spool/mail
+echo mypassword
+python --version
+vim
+vim test.py
+python test.py
+python
+python test.py
+vim test.py
+python test.py
+vim test.py
+cd /etc/cron.d/
+ls
+vim 0hourly
+ls
+which python
+cd --
+ls
+crontab -l
+service crond status
+/usr/local/webserver/nginx/sbin/nginx -v
+ls
+cd celery_coronavirus
+ls
+vim logging.log.2020-12-29
+ls
+cd --
+ls
+cd celery_coronavirus
+ls
+cd celery_app
+ls
+vim celery_config.py
+vim /etc/locale.conf
+vim ~/.bashrc
+bash
+vim celery_config.py
+ls
+vi periodical_scraper_every_hour_test.py
+vim periodical_scraper_every_hour_test.py
+ls
+vim periodical_scraper
+vim periodical_scraper.py
+ls
+vim history_statistics.py
+ls
+vim history_statisstics.py
+vim history_statistics.py
+ls
+cd --
+ls
+screen -ls
+screen -r 25526
+screen -ls
+screen -r 25526
+screen - ls
+screen -ls
+screen -r 22833
+screen -ls
+screen -r 31434
+screen -ls
+screen -d 22833
+screen -r 22833
+screen -ls
+screen -r 25526
+passwd
+passwd
+ls
+cd celery_coronavirus
+ls
+cd celery_app
+ls
+vim celery_config.py
+vim logging.log.2020-12-30
+vim logging.log.2020-12-29
+vim logging.log.2020-10-31
+ls
+vim periodical_scraper_every_hour
+vim periodical_scraper_every_hour.py
+vim periodical_scraper.py
+vim periodical_scraper_every_hour.py
+vim periodical_scraper.py
+ls
+screen -ls
+screen -r 25526
+ls
+cd celery_coronavirus
+ls
+cd celery_app
+ls
+vim celery_config.py
+screen -ls
+screen -r 22833
+screen -ls
+ls
+vim test.py
+python test.py
+screen -ls
+cd
+mkdir
+passwd
+vim periodical_scraper.py
+screen -ls
+screen -d 22833
+screen -r 22833
+screen -ls
+screen -r 25526
+ls
+cd celery_coronavirus
+ls
+cd celery_app
+ls
+python old_version_test.py
+ls
+screen -ls
+ls
+screen -r 25526
+ls
+cd celery_cornavirus
+cd celery_coronavirus
+ls
+cd celery_app
+ls
+vim celery_py
+vim celery.py
+vim celery_config.py
+screen -ls
+screen -r 25526
+screen -r 22833
+ls
+screen -r 25526
+screen -ls
+ls
+mkdir codes
+cd codes
+jupyter notebook
+jupyter notebook --allow-root
+ls
+jupyter notebook --generate-config
+vim  /root/.jupyter/jupyter_notebook_config.py
+pip3 install twint
+sudo yum -y install gcc\
+sudo yum -y install gcc
+sudo yum install python-devel
+pip3 install twint
+ docker run hello-world
+docker run hello-world
+sudo apt update && sudo apt install docker docker-compose git
+ sudo apt install docker docker-compose git
+ sudo yum install docker docker-compose git
+git clone https://github.com/signalapp/Signal-TLS-Proxy.git
+cd Signal-TLS-Proxy
+sudo ./init-certificate.sh
+sudo yum install docker
+sudo yum install docker-compose
+sudo ./init-certificate.sh
+sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)"  -o /usr/local/bin/docker-compose
+sudo mv /usr/local/bin/docker-compose /usr/bin/docker-compose
+sudo chmod +x /usr/bin/docker-compose
+sudo ./init-certificate.sh
+sudo docker-compose up --detach
+sudo su
+sudo docker-compose up --detach
+systemctl start docker
+service docker start
+curl -sSL https://get.docker.com/ | sh
+sudo yum install docker
+sudo snap status docker
+sudo systemctl list-units --type=service
+sudo systemctl restart snap.docker.dockerd.service
+systemctl start docker.service
+systemctl list-unit-files | grep docker
+systemctl enable docker
+sudo groupadd docker
+sudo usermod -aG docker $root
+newgrp docker
+docker
+vi /etc/sysconfig/docker
+ps aux | grep docker
+sudo docker info
+systemctl start docker
+sudo docker info
+sudo docker-compose up --detach
+cd Signal-TLS-Proxy
+sudo ./init-certificate.sh
+ls
+screen -l
+ls
+conda activate
+conda init
+conda env list
+conda list
+ls
+cd celery_coronavirus/
+ls
+cd celery_app/
+ls
+vim celery_config.py 
+ps -elf 
+top
+quit
+screen -ls
+screen -r 2166
+screen -d
+exit
