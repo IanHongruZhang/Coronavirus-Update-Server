@@ -53,7 +53,7 @@ def parse(response):
 	table_table_total = table_every_country.groupby("Country_Region").agg({"Last_Update":"first","OBJECTID":"first","Confirmed":"sum",
                                                                    "Recovered":"sum","Deaths":"sum"})
 	tf = table_table_total.sort_values(by = "Confirmed",ascending = False)
-	countries = pd.read_excel("country_sequence.xlsx")
+	countries = pd.read_excel("country_sequence.xlsx", engine='openpyxl')
 	tf_f = tf.reindex(list(countries["Country"]))
 	tf_f["Last_Update"] = tf_f.apply(timestamp_transfer,axis = 1)
 	tf_f["Automatic_Update_Time"] = generate_time()
