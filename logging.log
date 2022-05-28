@@ -85,3 +85,8 @@ history_data_update_completed!
 every hour task start!
 2022-05-28 12-02-21-every hour task finished!
 everyday 12:00pm task - start!
+everyday 12:00pm task - start!
+every hour task start!
+HTTPSConnectionPool(host='sheets.googleapis.com', port=443): Read timed out. (read timeout=120)
+failed to import new version of table
+2022-05-28 12-32-56-every hour task finished!
