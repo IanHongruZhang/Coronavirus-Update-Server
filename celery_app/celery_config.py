@@ -32,13 +32,13 @@ CELERYBEAT_SCHEDULE = {
     'scrape_every_24hours':{
     'task':'celery_app.periodical_scraper.execute',
     # 每天的23点50分，将一天中老版本的保存下来，成为历史数据备份。
-    'schedule':crontab(minute="0,30"), # 要非常注意crontab的写法
+    'schedule':crontab(minute="50", hour="23"), # 要非常注意crontab的写法
     'args':()
     },
 
     'scrape_every_24hours_history':{
     'task':'celery_app.history_statistics.execute',
-    'schedule':crontab(minute=0,hour="3,7,8,9,10,12,17,22"), # 每天的3,7,8,9,10,12,17,22点更新历史数据
+    'schedule':crontab(minute=0,hour="3,7,8,9,10,12,18,22"), # 每天的3,7,8,9,10,12,17,22点更新历史数据
     'args':()
     },
 
