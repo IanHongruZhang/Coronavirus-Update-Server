@@ -90,3 +90,7 @@ every hour task start!
 2022-11-30 18-30-37-every hour task finished!
 every hour task start!
 2022-11-30 19-00-23-every hour task finished!
+every hour task start!
+HTTPSConnectionPool(host='sheets.googleapis.com', port=443): Read timed out. (read timeout=120)
+failed to import new version of table
+2022-11-30 19-32-42-every hour task finished!
